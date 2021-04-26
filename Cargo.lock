@@ -798,6 +798,7 @@ dependencies = [
 name = "mdbook-blog"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "clap",
  "mdbook",
  "serde",
