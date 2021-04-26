@@ -1,4 +1,4 @@
-use clap::{App, AppSettings, Arg, SubCommand};
+use clap::{App, Arg, SubCommand};
 
 pub fn build_app() -> App<'static, 'static> {
     App::new("mdbook-blog")
